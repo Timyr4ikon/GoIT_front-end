@@ -1,17 +1,31 @@
+html{
+    box-sizing:border-box;
+    }
+    
+    *,
+    *::before,
+    *::after{
+    box-sizing: inherit;
+    }
+
 body{
-    font-size: 0px;
+    font-size: 14px; 
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container{
     width: 900px;
     height: auto;
     margin: 0 auto;
-
 }
 
 .header{
-    margin-top:76px;
-    margin-bottom: 102px;
+    padding-top: 70px;
+    padding-bottom: 102px;
 }
-
 .header-list{
+    font-size: 0;
     text-align: center;
     font-weight: 400; 
 }
@@ -29,7 +43,14 @@ body{
 .header-item a{
     color: #626262;
     text-decoration: none;
+    display: block;
    
+}
+
+.header-item a:hover,
+.header-item a:focus{
+   background-color: #f5f;
+    
 }
  
 .header-item:last-child{
@@ -45,14 +66,24 @@ body{
 }
 .article{
     display: inline-block;
+
+}
+.article:nth-last-of-type(-n+2){
+    margin-bottom: 70px;
+
 }
 
 .article-box{
     box-sizing: border-box;
     width: 420px;
+    margin-bottom: 136px;
 }
 .article-box::after{
     box-sizing:inherit;
+}
+
+.section{
+    font-size: 0px;
 }
 .section-img{
 margin-bottom: 30px;
@@ -79,27 +110,33 @@ h2{
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     color: #626262;
-    width: 380px;
-   
+    
 
 
 
 }
 
 .button{
-  text-align: center; 
-  margin: 70px 0;
+  
+ 
 }
 .loader{
-    border:1px solid #626262;
+    display: block;
     width: 164px;
+    border:1px solid #626262;
+    font-size: 20px;
+    text-align: center; 
     min-height: 60px;
     background-color: #fff;
-    font-size: 20px;
-
-color: #626262;
+    color: #626262;
 font-family: "Playfair Display";
 font-weight: 400;
 
+
+}
+.loader:hover,
+.loader:focus{
+    background-color: #000;
+    color: #fff;
 
 }
