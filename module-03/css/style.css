@@ -116,14 +116,10 @@ h2{
 
 }
 
-.button{
-  
-  text-align: center;
 
-
-}
 .loader{
-   
+   display: block;
+    margin: 0 auto;
     width: 164px;
     border:1px solid #626262;
     font-size: 20px;
