@@ -14,6 +14,8 @@ body{
     clear:both;
 }
 
+
+
 .nav{
    padding: 38px 0;
     margin-bottom :72px; 
@@ -90,6 +92,17 @@ text-transform: uppercase;
     margin-bottom: 30px;
 }
 
+.featured-products-item:hover .tshirt,
+.featured-products-item:focus .tshirt
+{
+    background-color: #1abc9c;
+}
+
+.featured-products-item:hover .money,
+.featured-products-item:focus .money{
+    background-color: #7fd9c7;
+}
+
 .featured-products-item:nth-of-type(4n){
     margin-right: 0px;
 }
@@ -98,20 +111,21 @@ text-transform: uppercase;
 }
 
 
+
 .products-item-block {
     
    width: 255px;
    height: 40px;
-   background-color: rgb(50, 50, 50);
+
 }
 
 .tshirt{
-    box-sizing: inherit;
+    
     color: #fff;
     font-size: 18px;
     font-weight: 900;
     width: 190px;
-    
+   background-color: #323232;
     float: left;
     text-transform: uppercase;
     padding: 10px 0 0 10px;
@@ -120,7 +134,7 @@ text-transform: uppercase;
 
 .money{
     
-    background-color:rgba(140, 140, 140);
+  background-color: #8c8c8c;
     width: 45px;
     height: inherit;
     float: right;
@@ -147,6 +161,7 @@ text-transform: uppercase;
     color: #555252;
     line-height: 26px;
 }
+
 
 .blog-img{
     margin-bottom: 12px;
