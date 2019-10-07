@@ -4,8 +4,11 @@ body{
 .container{
     width: 1110px;
     height: auto;
-    
     margin: 0 auto;
+}
+
+a{
+    display: block;
 }
 
 .clearfix::after{
@@ -14,173 +17,170 @@ body{
     clear:both;
 }
 
-
-
 .nav{
-   padding: 38px 0;
+    padding: 38px 0;
     margin-bottom :72px; 
 }
-.nav-logo{
-     float: left;
-   
+
+.nav__logo{
+    float: left;
     font-size: 30px;
     font-weight: 300;
     text-transform: uppercase;
 }
 
-.nav-logo:first-letter{
+.nav__logo:first-letter{
     color: #1abc9c;
 }
 
-.nav-list{
+.nav__list{
     float: right;
-    padding: 8px 0;
-    font-size: 14px;
     list-style: none;
-    text-transform: uppercase;
+    font-size: 14px; 
     font-weight: 700;
+    text-transform: uppercase;
+    padding: 8px 0;
 
 }
 
-.nav-list-item{
+.nav__item{
     float: left;
-    margin-left: 34px;
+    margin-right: 34px;
 }
 /* type */
-.nav-list-item:first-of-type{
-    margin-left: 0px;
+.nav__item:last-of-type{
+    margin-right: 0px;
 }
 
-.nav-list-item-link:hover,
-.nav-list-item-link:focus{
+.nav__item-link:hover,
+.nav__item-link:focus{
     color: #1abc9c;
 }
 
-.nav-list-item-link{
+.nav__item-link{
+   display: block;
    text-decoration: none;
    color: #0f0101;
 }
 
-.nav-logo-link{
+.nav__logo-link{
+    display: block;
     text-decoration: none;
     color: rgb(85, 82, 82);
 }
 
 /* FEATURED PRODUCTS */
 
-.h{
+.title{
 font-size: 48px;
 font-weight: 900;
 color: #515151;
 text-align: center;
 text-transform: uppercase;
+margin-bottom: 92px;;
 }
 
-.h::after{
+.title::after{
     content: '';
     display: block;
     width: 164px;
     height: 6px;
     background-color: #1abc9c;
-    margin: 28px auto 92px;
+    margin: 28px auto 0;
 }
 
-
-.featured-products-item{
+.section--products{
+    margin-bottom: 72px;
+}
+.products__item{
     float: left;
     margin-right: 30px;
     margin-bottom: 30px;
 }
 
-.featured-products-item:hover .tshirt,
-.featured-products-item:focus .tshirt
+.products__item:hover .tshirt,
+.products__item:focus .tshirt
 {
     background-color: #1abc9c;
 }
 
-.featured-products-item:hover .money,
-.featured-products-item:focus .money{
+.products__item:hover .money,
+.products__item:focus .money{
     background-color: #7fd9c7;
 }
 
-.featured-products-item:nth-of-type(4n){
+.products__item:nth-of-type(4n){
     margin-right: 0px;
 }
-.featured-products-item:nth-last-of-type(-n+4){
-    margin-bottom: 102px;
-}
 
 
 
-.products-item-block {
-    
+.products__item--block { 
    width: 255px;
    height: 40px;
 
 }
 
-.tshirt{
-    
-    color: #fff;
-    font-size: 18px;
-    font-weight: 900;
-    width: 190px;
-   background-color: #323232;
+.clothes{
     float: left;
+    width: 190px;
+    height: 30px;
+    color: #fff;
+    background-color: #323232;
+    font-size: 18px;
+    font-weight: 900; 
     text-transform: uppercase;
     padding: 10px 0 0 10px;
-    height: 30px;
+ 
 }
 
 .money{
-    
-  background-color: #8c8c8c;
-    width: 45px;
-    height: inherit;
     float: right;
+    width: 45px;
+    height: 30px;
+    background-color: #8c8c8c; 
     color: #fff;
     font-size: 18px;
     font-weight: 900;
     text-transform: uppercase;
     padding: 10px 0 0 10px;
-    height: 30px;
+    
 
 }
 
 /* LATEST NEWS 350 541 */
 
-.news-blog:not(:last-child){
+.news__item:not(:last-child){
     margin-right: 30px;
 }
 
-.news-blog{
+.news__item{
     float: left;
     width: 350px;
-    height: 541px;
     font-family: 'Open Sans', sans-serif;
     color: #555252;
     line-height: 26px;
 }
 
 
-.blog-img{
+.news__img{
     margin-bottom: 12px;
 }
-.blog-h{
+.news__title{
     font-size: 18px;
     font-weight: 600;
     color: #555252;
 }
-.blog-h::after{
-    content: '';
+.news__title::after{
     display: block;
-   width: 136px;
-   height: 3px;
+    width: 136px;
+    height: 3px;
+    content: '';
     background-color: #1abc9c;
     margin: 14px 0 26px;    
 }
 
-.blog-text{
+.news__content{
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 10px;
@@ -188,7 +188,7 @@ text-transform: uppercase;
 
 }
 
-.btn{
+.read--more{
     display: inline-block;
     width: 160px;
     height: 41px;
@@ -196,8 +196,12 @@ text-transform: uppercase;
     color:#fff;
     font-size: 16px;
     font-weight: 300;
-    border-radius: 5px;
     text-align: center;
+    border-radius: 5px; 
     padding-top: 10px; 
     
+}
+.read--more:hover{
+    background-color: #fff;
+    color: #4ec6ab;
 }
