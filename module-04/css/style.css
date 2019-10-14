@@ -98,8 +98,8 @@ margin-bottom: 92px;;
     margin-bottom: 30px;
 }
 
-.products__item:hover .tshirt,
-.products__item:focus .tshirt
+.products__item:hover .clothes,
+.products__item:focus .clothes
 {
     background-color: #1abc9c;
 }
