@@ -1,6 +1,6 @@
 html{
     box-sizing: border-box;
-    background-color: #e9effd;
+    
 }
 
 *,
@@ -8,8 +8,14 @@ html{
 *::before{
     box-sizing: inherit;
 }
-.container{
+
+body{
     font-family: 'Roboto', sans-serif;
+}
+.container{
+    
+    width: 1110px;
+    margin: 0 auto;
 }
 
 
@@ -22,6 +28,7 @@ a{
     content: '';
     clear:both;
 }
+
 
 .nav{
     padding: 38px 0;
@@ -134,13 +141,14 @@ a{
    top: 50%;
    transform: translate(-50%, -50%);
    text-transform: uppercase;
-   line-height: 82px;
+   line-height: 72px;
    color: #fff;
 }
 
 .slider__cont-title{  
 font-weight: 900;
 font-size: 60px;
+
 }
 
 .slider-text{
@@ -152,12 +160,9 @@ font-size: 60px;
 
 .new-collection{
     padding:94px 0;
+    background-color: #e9effd;
 }
-.collection{
-    width: 1110px;
-    height: 100%;
-    margin: 0 auto;
-}
+
 .collection__title{
     color:#515151;
     font-size: 48px;
@@ -174,9 +179,7 @@ font-size: 60px;
     background-color:#19bb9b;
     margin: 28px auto 92px ; 
 }
-.collection__menu{
-    margin-bottom: 30px;
-}
+
 
 .collection__item{
     position: relative;
