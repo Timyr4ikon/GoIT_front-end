@@ -111,12 +111,14 @@ display: block;
 }
 
 .amazing-title{
+    display: block;
     text-align: center;
     font-size: 30px;
     font-weight: 700;
     color: #333;
     line-height: 36px;
     text-transform: uppercase;
+    font-family: 'Monserrat', sans-serif;
 }
 
 .amazing-title::after{
@@ -145,11 +147,31 @@ display: block;
     width: 90px;
     margin: 0 10px 0 30px;
 }
-.icon{
-    width: 30px;
-    height: 30px;
+.icons{
+   width: 32px;
+   height: 32px;
+   
+   background-position: center;
+   background-repeat: no-repeat;
 }
-
+.image{
+    background-image: url(../img/IMAGE.png);
+}
+.home{
+    background-image: url(../img/HOME.png);
+}
+.book{
+    background-image: url(../img/BOOK\ 2.png);
+}
+.alarm{
+    background-image: url(../img/ALARM.png);
+}
+.graf{
+    background-image: url(../img/LINE\ GRAPH.png);
+}
+.comp{
+    background-image: url(../img/COMPUTER\ _\ OK.png);
+}
     /* OUR TEAM */
 .item-title{
     color: #333;
@@ -172,6 +194,9 @@ display: block;
     color: #333;
     line-height: 36px;
     text-transform: uppercase;
+    font-family: 'Monserrat', sans-serif;
+    display: block;
+   
 }
 
 .team-title::after{
@@ -196,10 +221,11 @@ display: block;
 .team-menu{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 80px;
 }
 .team-menu__list{
     width: 380px;
-    height: 624px;
+ 
    
 }
 
