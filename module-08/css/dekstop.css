@@ -1,0 +1,17 @@
+@media (min-width:940px){
+    .container{
+        width: 940px;
+    }
+    .header{
+        max-width: 1440px;
+      
+    }
+    .nav-list{
+        width: 100%;
+    }
+
+    .partners-list{
+        flex-wrap: nowrap;
+    }
+  
+}
