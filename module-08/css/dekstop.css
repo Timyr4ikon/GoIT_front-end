@@ -1,13 +1,13 @@
-@media (min-width:940px){
+@media (min-width:964px){
     .container{
-        width: 940px;
+        width: 944px;
     }
-    .header{
-        max-width: 1440px;
-      
-    }
-    .nav-list{
+   
+    .header-menu-list{
         width: 100%;
+    }
+    .partners{
+        width: 944px;
     }
 
     .partners-list{
