@@ -1,0 +1,226 @@
+.bcgr-header{
+    margin: 0 auto;
+   min-width: 320px;
+   height: 540px;
+   max-width: 1440px;
+   background-image: url(../img/dekstop-fon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+[class*='col-']{
+    padding-right: 0;
+    padding-left: 0;
+}
+.container{
+    width: 320px;
+    margin: 0 auto;
+    
+}
+.row{
+    padding-left: 0;
+    padding-right: 0;
+}
+.header{
+    width: 320px;
+    margin: 0 auto;
+    height: 220px;
+    flex-wrap: wrap-reverse;
+   
+}
+.nav-item{
+    text-align: center;
+    padding-top: 20px;
+  }
+  .nav-link{
+      padding-top: 100px;
+      font-size: 20px;
+      color: #ffffff;
+      font-weight: 700;
+      text-align: center;
+  }
+  .sign-up{
+      margin-right: 15px;
+      margin-left: -15px;
+  }
+  .log-in{
+      margin-left: -10px;
+  }
+  .header-item-btn {
+      display: inline-block;
+      font-size: 14px;
+      color: #ffffff;
+      font-weight: 700;
+      width: 90px;
+      height: 36px;
+      border-radius: 18px;
+      border: 2px solid transparent;
+      text-align: center;
+      padding: 8px 0;
+  }
+  
+  .header-item-btn:hover{
+      border: 2px solid #ffffff;
+      transition-duration: 0.2s;
+  }
+  .header-item-btn a{
+      color: #ffffff;
+  }
+  
+.header-title{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.header-subtitle{
+   margin: 0 50px;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header-btn{
+    display: block;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    width: 280px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #ff4e50; 
+    padding: 10px 0;
+    border: none;
+}
+.header-btn:hover{
+    background-color: rgb(229, 233, 13);
+    transition-duration: 0.2s;
+    color: black;
+}
+
+
+.partners{
+    padding-top: 65px;
+    margin: 0 auto;
+}
+
+.partners-title{
+    font-size: 22px;
+    color: #333333;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.partners-item{
+    height: auto;
+    width: 100%;
+    margin-bottom: 32px;
+    }
+    
+    
+    .partners-item-face{
+        position: relative;
+        display: block;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    }
+    .first-item{
+        background-image: url(../img/Layer\ 6.png);
+    }
+    .first-item::after{
+        background-color: #ff4e50;
+        background-image: url(../img/Shape\ 128.png);
+    }
+    .second-item{
+        background-image: url(../img/Layer\ 8.png);
+        
+    }
+    .second-item::after{
+        background-color: #ffa507;
+        background-image: url(../img/Shape\ 155.png);
+    }
+    .third-item{
+        background-image: url(../img/Layer\ 7.png);
+    }
+    .third-item::after{
+        background-color: #1cd7ad;
+        background-image: url(../img/Shape\ 153.png);
+    }
+    .fourth-item{
+        background-image: url(../img/Layer\ 10.png);
+    }
+    .fourth-item::after{
+        background-color: #4e73db;
+        background-image: url(../img/Shape\ 170.png);
+    }
+    .partners-item-face::after{
+        display: block;
+        content: '';
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+       
+        
+        background-position: center;
+        background-repeat: no-repeat;
+      border: 4px solid #ffffff;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    
+    
+    .partners-item-name{
+        font-size: 14px;
+        color: #333333;
+        font-weight: 700;
+        text-align: center;
+    padding-bottom: 15px;  
+    }
+    
+    .partners-item-discribe{
+            padding: 0 50px;
+        font-size: 14px;
+        color: #666666;
+        font-family: "Roboto";
+        font-weight: 300;
+        text-align: center;
+    }
+    
+    .partners-btn{
+        display: block;
+        margin: 0 auto;
+        width: 280px;
+        height: 40px;
+        border-radius: 20px;
+       background-color: #ffffff;
+        border: 2px solid #ff4e50;
+        font-size: 14px;
+        color: #ff4e50;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .partners-btn:hover{
+        background-color: #ff4e50;
+        color: #ffffff;
+    }
+    .partners-item-face:hover{
+        background-image: url(../img/Layer\ 9.png);
+    }
+   

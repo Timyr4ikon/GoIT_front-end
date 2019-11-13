@@ -1,0 +1,28 @@
+@media(min-width:1024px){
+    .container{
+        width: 992px;
+    }
+    .header{
+        width: 992px;
+    }
+    .nav-link{
+        margin-left: -12px;
+    }
+    .nav-item{
+        padding-right: 15px;
+    }
+    .header-content{
+        width: 600px;
+    }
+    .header-title{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .partners{
+        height: 1000px;
+    }
+    .partners-list{
+        margin-left: 10px;
+        width: 950px;
+    }
+}

@@ -1,0 +1,52 @@
+@media (min-width:780px){
+    .container{
+    width: 748px;
+}
+.header{
+    width: 748px;
+}
+
+.bcgr-header{
+    height: 700px;
+}
+.nav-link{
+    padding-top: 50px;
+}
+.nav-item{
+    padding-top: 40px;
+    text-align: right;
+    padding-right: 30px;
+}
+.header-title{
+    font-size: 52px;
+    margin-bottom: 20px;
+    padding: 0 100px;
+}
+.header-subtitle{
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+.header-btn{
+    width: 225px;
+    height: 40px;
+}
+
+.partners-title{
+    margin-bottom: 20px;
+}
+.partners-item{
+    margin-bottom: 60px;
+}
+.partners-item-discribe{
+    padding-right: 17px;
+    padding-left: 17px;
+}
+.partners-item-2, .partners-item-4{
+    margin-bottom: 40px;
+}
+.partners-btn{
+    width: 192px;
+height: 40px;
+}
+}
+
