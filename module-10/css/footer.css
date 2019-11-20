@@ -1,14 +1,22 @@
 .footer{
     width: 100%;
-    box-shadow: 0px 1px 1px 1px #999;
+    -webkit-box-shadow: 0px 1px 1px 1px #999;
+            box-shadow: 0px 1px 1px 1px #999;
+    margin-bottom: 100px;
 }
 
+
 .footer__content{
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .footer__subscribe{
-    align-self: center;
+    -ms-flex-item-align: center;
+        align-self: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 380px;
     height: 40px;
@@ -22,7 +30,9 @@
 }
 .footer__email{
     color: #ccc;
-    align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     width: 230px;
     height: 38px;
     font-family: 'Roboto', sans-serif;
@@ -49,7 +59,10 @@
 
 .footer__btn:hover{
     background-color: purple;
-    transform: rotate(360000000deg);
-    transition-duration: 5s;
+    -webkit-transform: rotate(360000000deg);
+        -ms-transform: rotate(360000000deg);
+            transform: rotate(360000000deg);
+    -webkit-transition-duration: 5s;
+         -o-transition-duration: 5s;
+            transition-duration: 5s;
 }
-
