@@ -1,0 +1,55 @@
+.sranb__title{
+    display: none;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 60px;
+    color: yellow;
+    margin-bottom: 40px;
+}
+
+.sranb__banan{
+    display: none;
+    margin: 0 auto;
+    width: 600px;
+}
+
+.sranb{
+background-color: palevioletred;
+    position: relative;
+    max-width: 920px;
+    margin: 0 auto;
+    margin-top: 50px;
+    min-height: 50px;
+
+}
+
+.heart{
+    display: none;
+    position: absolute;
+    left: -70px;
+  top:0;
+}
+.heart1{
+    display: none;
+    position: absolute;
+    left: 770px;
+    top:0;
+}
+.xxx{
+        display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.sranb:hover .sranb__title{
+    display: block;
+}
+.sranb:hover .sranb__banan{
+    display: block;
+}
+.sranb:hover .heart{
+    display: block;
+}
+.sranb:hover .heart1{
+    display: block;
+}
+

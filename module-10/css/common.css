@@ -1,0 +1,99 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+*:hover{
+    transition-duration: 0.2s;
+}
+body{
+    height: 3200px;
+}
+.mtb{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.link{
+    display: block;
+    text-decoration: none;
+}
+
+.background-header__image{
+    display: block;
+    margin: 0 auto;
+    max-width: 1920px;
+    height: 1000px;
+    background-image: url(../img/background-header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media ( -webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi){
+    .background-header__image{
+        background-image: url(../img/background-header@2.png);
+    }
+}
+.background-header__color{
+    background-image: linear-gradient(0deg, #fbe389 0%, #f38a81 100%);
+    opacity: 0.9;
+    max-width: 1920px;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.ml{
+    margin-left: 20px;
+}
+.title{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.univ__title{
+    margin: 0 auto;
+    font-size: 24px;
+    color: #333333;
+    font-family: "Kaushan Script";
+    font-weight: 400;
+    text-align: center;
+     margin-bottom: 10px;
+}
+
+.univ__subtitle{
+    font-size: 30px;
+    color: #333333;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.univ__subtitle::after{
+    display: block;
+    content: '';
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin-bottom: 40px;
+}
