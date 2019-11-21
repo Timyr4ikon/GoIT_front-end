@@ -25,9 +25,9 @@ html{
 }
 
 .background-header__image{
-    display: block;
+    position:relative ;
     margin: 0 auto;
-    max-width: 1920px;
+   width: 1920px;
     height: 1000px;
     background-image: url(../img/background-header.png);
     background-position: center;
@@ -40,11 +40,12 @@ html{
     }
 }
 .background-header__color{
+    width: 100%;
+    position: absolute;
     background-image: -webkit-gradient(linear, left bottom, left top, from(#fbe389), to(#f38a81));
     background-image: -o-linear-gradient(bottom, #fbe389 0%, #f38a81 100%);
     background-image: linear-gradient(0deg, #fbe389 0%, #f38a81 100%);
     opacity: 0.9;
-    max-width: 1920px;
     height: 1000px;
     margin: 0 auto;
 }
