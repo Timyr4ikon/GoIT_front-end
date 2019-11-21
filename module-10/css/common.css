@@ -27,11 +27,12 @@ html{
 .background-header__image{
     position:relative ;
     margin: 0 auto;
-   width: 1920px;
+    width: 100%;
     height: 1000px;
     background-image: url(../img/background-header.png);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @media ( -webkit-min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi){
