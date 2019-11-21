@@ -1,0 +1,109 @@
+html{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+}
+*:hover{
+    -webkit-transition-duration: 0.2s;
+         -o-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+}
+
+.mtb{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.link{
+    display: block;
+    text-decoration: none;
+}
+
+.header__background--image{
+    position:relative ;
+    margin: 0 auto;
+    width: 100%;
+    height: 1000px;
+    background:linear-gradient(to bottom, rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9)), url(../img/background-header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media ( -webkit-min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi){
+    .background-header__image{
+        background-image: url(../img/background-header@2.png);
+    }
+}
+
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.ml{
+    margin-left: 20px;
+}
+.title{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.univ__title{
+    margin: 0 auto;
+    font-size: 24px;
+    color: #333333;
+    font-family: "Kaushan Script";
+    font-weight: 400;
+    text-align: center;
+     margin-bottom: 10px;
+}
+
+.univ__subtitle{
+    font-size: 30px;
+    color: #333333;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.univ__subtitle::after{
+    display: block;
+    content: '';
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin-bottom: 50px;
+}.example {
+    display: -ms-grid;
+    display: grid;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+    background: -o-linear-gradient(top, white, black);
+    background: linear-gradient(to bottom, white, black);
+}

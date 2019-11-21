@@ -1,0 +1,126 @@
+.team__text{
+    width: 960px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 88px;
+}
+.team__list{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;-webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between;
+}
+.team__item{
+    width: 380px;
+}
+.team__item--second{
+    margin:0  10px;
+}
+.team__item--third{
+    margin-left: 10px;
+}
+
+.team__img{
+    position: relative;
+    width: 380px;
+    height: 470px;
+background-color: #95e1d3;
+margin-bottom: 30px;
+}
+
+.team__people{
+    position: absolute;
+    width: 380px;
+    height: 470px;
+}
+
+.team__background--grad{
+    position: absolute;
+    top:0;
+    margin-top: -10px;
+    margin-left: -10px;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    background-image: -o-linear-gradient(bottom, #f0e290 0%, #e98a89 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#f0e290), to(#e98a89));
+    background-image: linear-gradient(0deg, #f0e290 0%, #e98a89 100%);
+}
+
+.team__icons{
+    opacity: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 48%;
+    left: 48%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 223px;
+    height: 55px;
+    
+}
+.team__icon{
+    width: 55px;
+    height: 55px;
+    border-right:1px solid  #f38181; ;
+    background-color: #fce38a;
+}
+
+.team__icon:last-child{
+    border-right: none;
+}
+.team__icon--facebook{
+    width: 17px;
+    height: 31px;
+    fill: #f38181;
+    margin:0 19px;
+    margin-top: 12px;
+}
+.team__icon--univ{
+    width: 30px;
+    height: 30px;
+    fill: #f38181;
+    margin:0 11px;
+    margin-top: 12px;
+}
+.team__item:hover .team__people{
+    margin-top: -10px;
+    margin-left: -10px;
+}
+.team__item:hover .team__background--grad{
+    opacity: 0.85;
+}
+.team__item:hover .team__icons{
+    opacity: 1;
+}
+.team__icon:hover{
+    background-color: #f38181;
+}
+.team__icon:hover .team__svg{
+    fill: aliceblue;
+}
+
+.team__name{
+    display: block;
+    font-size: 14px;
+    color: #333333;
+    font-family: "Montserrat";
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.team__job{
+    width: 100%;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 78px;
+    }
