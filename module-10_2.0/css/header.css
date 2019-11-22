@@ -7,8 +7,8 @@
 
 
 .header__nav{
-    width: 500px;
-    margin-left: 500px;
+    min-width: 500px;
+    margin-left: auto;
 
 }
 .header__menu{
