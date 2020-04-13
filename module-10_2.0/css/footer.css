@@ -40,6 +40,7 @@
     padding-left: 20px;
 }
 .footer__email{
+    padding-left: 10px;
     color: #ccc;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
@@ -70,10 +71,4 @@
 
 .footer__btn:hover{
     background-color: purple;
-    -webkit-transform: rotate(360000000deg);
-        -ms-transform: rotate(360000000deg);
-            transform: rotate(360000000deg);
-    -webkit-transition-duration: 5s;
-         -o-transition-duration: 5s;
-            transition-duration: 5s;
 }
